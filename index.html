@@ -1,0 +1,38 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Etch-a-sketch</h1>
+    </header>
+
+    <main class="main">
+        <div id="settings">
+            <input  id="color-picker" type="color">
+            <button class="button" id="eraser-btn">Eraser</button>
+            <button class="button" id="rainbow-btn">Toggle Rainbow</button>
+            <button class="button" id="clear-btn">Clear</button>
+            <div class="grid-size">
+                <button class="lil-btn" id="less">-</button>
+                <p id="grid-size-value"></p>
+                <button class="lil-btn" id="more">+</button>
+            </div>
+        </div>
+        
+        <div id="grid-div"></div>
+    </main>
+
+    <footer class="footer">
+        <h3><a href="https://github.com/akugelblitz" target="_blank">Aditya Sharma</a></h3>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
